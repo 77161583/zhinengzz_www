@@ -1,0 +1,67 @@
+@charset "utf-8";
+.animate03{-webkit-transition-duration:0.3s; -moz-transition-duration:0.3s; -ms-transition-duration:0.3s;transition-duration:0.3s;}
+.animate{-webkit-transition-duration:0.5s; -moz-transition-duration:0.5s; -ms-transition-duration:0.5s;transition-duration:0.5s;}
+.animate1{-webkit-transition-duration:1s; -moz-transition-duration:1s; -ms-transition-duration:1s;transition-duration:1s;}
+.animate15{-webkit-transition-duration:1.5s; -moz-transition-duration:1.5s; -ms-transition-duration:1.5s;transition-duration:1.5s;}
+.animate2{-webkit-transition-duration:2s; -moz-transition-duration:2s; -ms-transition-duration:2s;transition-duration:2s;}
+.animate3{-webkit-transition-duration:3s; -moz-transition-duration:3s; -ms-transition-duration:3s;transition-duration:3s;}
+.animate4{-webkit-transition-duration:4s; -moz-transition-duration:4s; -ms-transition-duration:4s;transition-duration:4s;}
+.animate5{-webkit-transition-duration:5s; -moz-transition-duration:5s; -ms-transition-duration:5s;transition-duration:5s;}
+.animate10{-webkit-transition-duration:10s; -moz-transition-duration:10s; -ms-transition-duration:10s;transition-duration:10s;}
+
+@font-face
+{
+font-family: myFirstFont;
+src: url('../font/fzlt.ttf');
+    ,url(''); /* IE9+ */
+}
+
+
+.bodyCss{ width:100%; height:100%; position:relative; overflow:hidden;}
+#container{ width:100%; height:auto; position:relative; top:0; left:0;}
+#containers{ width:100%; height:auto; overflow:hidden; position:relative;}
+#container section{ width:1200px;height:234px!important; position:relative; float:left; overflow:hidden;margin-bottom: 30px}
+
+#indexOne{ background:url(../images/jianbianPng.png) center; background-size:cover;}
+#indexOne .font{ width:875px; height:65px; background:url(../images/cxzjwl.png); position:absolute; left:50%; margin-left:-437px; top:50%; margin-top:-150px;}
+#indexOne .next{ width:37px; height:20px; position:absolute;left:50%; margin-left:-18px; bottom:100px; -webkit-animation: indexJt 1s ease-out infinite;animation: indexJt 1s ease-out infinite;}
+#indexOne .next .cur1{ width:37px; height:19px; background:url(../images/indexNext.png); top:0; left:0;}
+#indexOne .next .cur2{ width:37px; height:19px; background:url(../images/indexNext.png); top:30px; left:0; opacity:.6}
+#indexOne .next .cur3{ width:37px; height:19px; background:url(../images/indexNext.png); top:50px; left:0; opacity:.3}
+
+#service .font{ background:url(../images/our-markets.png); width:472px; height:58px; position:absolute; left:50%; margin-left:-236px; top:50%; margin-top:-250px;}
+#service .font2{ width:100%; height:22px; line-height:22px; text-align:center; color:#fff; position:absolute; top:50%; font-size:22px; font-weight:bold; margin-top:-150px}
+#service .icoList li:hover{ opacity:1;}
+#service .serviceIco1{ width:120px; height:113px; background:url(../images/indexServicIco.png) left bottom;}
+#service .serviceIco2{ width:120px; height:113px; background:url(../images/indexServicIco.png) -120px bottom;}
+#service .serviceIco3{ width:120px; height:113px; background:url(../images/indexServicIco.png) -240px bottom;}
+#service .serviceIco4{ width:120px; height:113px; background:url(../images/indexServicIco.png) -360px bottom;}
+#service .serviceIco5{ width:120px; height:113px; background:url(../images/indexServicIco.png) -480px bottom;}
+#service .icoList li b{ display:block; width:100%; height:auto; font-size:22px; font-weight:bold; text-align:center; color:#fff; margin-top:10px;}
+#service .icoList li .a{ display:block; width:110px; height:40px; border:2px solid #fff; border-radius:20px; text-align:center; opacity:0; line-height:40px; margin-top:10px; color:#fff; font-weight:bold; -webkit-transform:translateY(20px);transform:translateY(20px);}
+#service .icoList li .text{ color:#fff; text-align:center; font-size:12px; margin-top:20px;-webkit-transform:translateY(50px);transform:translateY(50px); opacity:0;}
+#service .icoList li .a:hover{ background:#4c60db; border:2px solid #4c60db; -webkit-transform:scale(.5);transform:scale(.5);}
+#service .icoList li.cur .a{ -webkit-transform:translateY(0);transform:translateY(0); opacity:1;}
+#service .icoList li.cur .text{ -webkit-transform:translateY(0);transform:translateY(0); opacity:1;}
+#service .icoList li.cur{ opacity:1;}
+#service .icoList li.cur .serviceIco1{ -webkit-transform:translateY(-5px);transform:translateY(-5px);}
+#service .icoList li.cur .serviceIco2{ -webkit-transform:translateY(-5px);transform:translateY(-5px);}
+#service .icoList li.cur .serviceIco3{ -webkit-transform:translateY(-5px);transform:translateY(-5px);}
+#service .icoList li.cur .serviceIco4{ -webkit-transform:translateY(-5px);transform:translateY(-5px);}
+#service .icoList li.cur .serviceIco5{ -webkit-transform:translateY(-5px);transform:translateY(-5px);}
+#service .ImgList{ width:1200px; height:403px; position:absolute; top:0; left:0;z-index:9999;}
+#service .ImgList li{ width:100%; height:100%; position:absolute; top:0; left:0; -webkit-transform:scale(1.4);transform:scale(1.4); opacity:0;}
+#service .ImgList li .img{ display:block; width:100%; height:100%;-webkit-transform:scale(1);transform:scale(1);}
+#service .ImgList li.cur2 .img{ background:url(../images/picbanner_03.jpg) center; background-size:cover;}
+#service .ImgList li.cur3 .img{ background:url(../images/qmt_03.jpg) center; background-size:cover;}
+#service .ImgList li.cur4 .img{ background:url(../images/jy_05.jpg) center; background-size:cover;}
+#service .ImgList li.cur5 .img{ background:url(../images/bx_05.jpg) center; background-size:cover;}
+#service .ImgList li .img.cur{-webkit-transform:scale(1.1);transform:scale(1.1); opacity:1;}
+#service .ImgList li.cur{-webkit-transform:scale(1);transform:scale(1); opacity:1;}
+
+
+
+
+
+
+

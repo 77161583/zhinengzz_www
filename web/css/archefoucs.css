@@ -1,0 +1,23 @@
+﻿body { min-width: 1000px; }
+.banner {width: 100%; max-width: 1920px; margin: 0 auto; position: relative;min-width:1200px;}
+.banner{ height: 474px; }
+.gg { width: 100%; height: 474px; position: relative; z-index: 1; overflow: hidden; margin: 0 auto; }
+.ggLoading { position: absolute; left: 40%; top: 200px; width: 325px; text-align: center; height: 56px; ; background-repeat: no-repeat; line-height: 56px; color: #9c9c9c; }
+.ggLoading2 { width: 330px; height: 56px; background-position: 213px -330px; background-repeat: no-repeat; }
+.ggLoading em { font-weight: bold; }
+.ggs { width: 200%; height: 432px; left: -50%; top: 0; position: absolute; }
+.ggBox { width: 1920px; height: 432px; margin: 0 auto; }
+.ggBox a {display: block; width: 1920px; height: 432px; position: absolute; z-index: 1;}
+.ggBox img { display: block; width: 1920px; height: 432px;vertical-align: inherit;}
+.ggb { position: absolute;left:50%; bottom: 0; height: 20px; z-index: 4;/*border: 1px solid red;*/width: 1200px;padding:10px 0;margin-left:-600px;}
+.ggb img{vertical-align: inherit}
+.ggBtnxs{ width: 960px; height: 20px; margin: 0 auto; border-left: 1px solid #090908; border-right: 1px solid #6a6a60; }
+.ggBtns p{ background:url(../images/line_03.jpg) right center no-repeat;float: left; display: block;height: 20px; text-align: center;color: #848380; font-size: 14px; line-height: 20px;cursor: pointer;}
+.ggBtns a{float: left; display: block;padding:0 15px; height: 20px; text-align: center;color: #848380; font-size: 14px; line-height: 20px; background-position: 0 10px; position: relative;outline: none; background-repeat: no-repeat; cursor: pointer;font-family:'宋体';}
+.ggBtns a em {height: 20px; margin: 0 auto; overflow: hidden; font-size: 14px;color:#666;}
+.ggBtns a:hover { color: #e7e7e7; }
+.ggBtns a:focus { outline: none; }
+.ggBtns a.ggOn em { color: #fff;  }
+a.ggOn{ background-color:#da291c;color: #fff;margin:0 10px 0 10px;display:block;}
+.stop{position: relative;top: 2px;left: 14px;cursor: pointer;}
+.play{position: relative;top: 2px;left: 14px;cursor: pointer;}

@@ -1,0 +1,145 @@
+body.bg{background: #f2f2f2}
+.activity-list{
+    width: 1018px;
+    margin: 20px auto;
+}
+.activity-list .act-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 15px 34px 14px 18px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.activity-list .act-item .inline-img{
+    width: 264px;
+    height: 207px;
+    float: left;
+}
+.activity-list .act-item .to-inline{
+    width: 652px;
+    float: right;
+    height: 207px;
+}
+.activity-list .act-item .to-inline .inline-title{
+    font-size: 22px;
+    color: #333;
+    height: 27px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 19px;
+}
+.activity-list .act-item .to-inline .inline-sthss {
+    color: #666;
+    font-size: 16px;
+    line-height: 32px;
+}
+.activity-list .act-item .to-inline .inline-infoss {
+    font-size: 16px;
+    color: #333;
+    line-height: 26px;
+    height: 55px;
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.activity-list .act-item .to-inline .inline-datess {
+    color: #666;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    display: inline-block;
+}
+/*分页*/
+.page{
+    text-align: center;
+    padding: 10px 0 30px;
+}
+.page a ,.page .layui-laypage-curr{
+    display: inline-block;
+    vertical-align: middle;
+    min-width: 32px;
+    height: 32px;
+    line-height: 30px;
+    margin-right: 4px;
+    text-align: center;
+    list-style: none;
+    background-color: #fff;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    font-weight: 500;
+    border: 1px solid #dcdee2;
+    border-radius: 4px;
+    transition: border .2s ease-in-out,color .2s ease-in-out;
+}
+.page a {
+    
+    margin: 0 6px;
+    text-decoration: none;
+    color: #515a6e;
+}
+.page .layui-laypage-curr {
+
+    border-color: #2d8cf0;
+    color:  #2d8cf0;
+}
+
+/*详情页*/
+.activity-info {
+    width: 1018px;
+    margin: 0 auto;
+    }
+.activity-info .info {
+    width: 1018px;
+    margin: 22px auto;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+}
+.activity-info .activitymsg {
+    padding: 20px;
+    width: 1018px;
+    line-height: 28px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.activity-info .activitymsg .top {
+    border-bottom: 1px solid #999;
+    height: 50px;
+    margin-bottom: 15px;
+}
+.activity-info .activitymsg .top .topbox {
+    position: relative;
+    /*width: 200px;*/
+    text-align: center;
+    /*left: 366px;*/
+    background: #fff;
+    z-index: 100;
+}
+.activity-info .activitymsg .top .topbox .title {
+    font-size: 20px;
+    margin: 10px 0;
+}
+.activity-info .activitymsg .top .topbox .msg {
+    font-size: 14px;
+    color: #999;
+}
+.activity-info .activitymsg .content {
+    line-height: 28px;
+    font-size: 14px;
+    color: #000;
+}
