@@ -24,7 +24,7 @@
 <div class="main-wrap m0 mt10" >
     <div id="container">
         <section id="service" class="service-img">
-            <img src="<?= !empty($center[0]['picurl'])?$center[0]['picurl']:''?>" alt="" width="1200" height="234">
+            <img src="<?= !empty($center[0]['picurl'])?$center[0]['picurl']:''?>" alt="" >
         </section>
     </div>
 <!--    新闻-->

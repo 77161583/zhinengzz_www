@@ -9,11 +9,11 @@
                 <li><img src="/images/ba.jpg" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#ffffff;">京公网安备 11010802030938号</p ></li >
             </ul>
             <ul class="footer-right">
-<!--                <li>-->
-<!--                    <img src="http://file.zhinanche.com/manage/0/1573450990633微信图片_20191104103650.jpg" width="90" height="90" />-->
-<!--                    <p>微信扫一扫</p>-->
-<!--                    <p>领取免费资料</p>-->
-<!--                </li>-->
+                <li>
+                    <img src="/images/fuwu.jpg" width="90" height="90" />
+                    <p>关注公众号</p>
+                    <p>智能智造学院</p>
+                </li>
                 <li>
                     <img src="/images/wechat.png" width="90" height="90" />
                     <p>关注公众号</p>
@@ -22,6 +22,7 @@
             </ul>
         </div>
    	 </div>
+
 </div>
 </body>
 </html>
