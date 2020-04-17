@@ -8,11 +8,8 @@
 
 namespace app\controllers;
 
-use app\modules\models\LoginFormModle;
-use app\modules\services\MessageService;
-use app\modules\services\RegisterService;
-use app\modules\services\LoginService;
-use app\modules\services\AesService;
+use app\models\LoginFormModle;
+use app\services\LoginService;
 use yii\web\Controller;
 use yii\filters\AccessControl;
 use yii;
@@ -28,18 +25,15 @@ class RegisterController extends BasemController
 
     public function actionIndex()
     {
-        $title = '注册'.' - '.$this->coopInfo['site_title'];
         //获取注册成功回跳地址
         $fromUrl=LoginService::handleFromUrl();
         //渲染
         $loginForm = new LoginFormModle();//这里要把刚才写的类new下，注意你们要引入文件路径额
-
         $pageStr='';
-        $pageStr .= $this->renderPartial('/public/header_tpl',array('header_title'=>$title));
+        $pageStr .= $this->renderPartial('/public/header_tpl');
         $bodyData=array(
             'loginForm'=>$loginForm,
             'fromUrl'=>$fromUrl,
-            'site_name'=>$this->coopInfo['site_title']
         );
         $pageStr .= $this->renderPartial('/register/register',$bodyData);
         $pageStr .= $this->renderPartial('/public/footer_tpl');

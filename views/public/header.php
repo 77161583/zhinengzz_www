@@ -84,6 +84,27 @@
                     <?php }?>
                 </li>
             <?php }?>
+            <li >
+                <a id="login_in" href="javascrip:;" class="ahover navbj" >
+                    <div class="three-d">
+                        <div class="navCn" >登录</div>
+                    </div>
+                </a>
+            </li>
         </ul>
     </div>
 </div>
+<script>
+    layui.use('layer', function() {});
+    $('#login_in').click(function(){
+        layer.open({
+            type: 2, //page层
+            area: ['913px', '748px'],
+            skin: 'myskin',
+            title: false,
+            shade: 0.7, //遮罩透明度
+            moveType: 1, //拖拽风格，0是默认，1是传统拖动
+            content: ['/login.html', 'no'] //这里content是一个普通的String
+        });
+    });
+</script>

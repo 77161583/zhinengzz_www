@@ -27,14 +27,6 @@ class BasemController extends Controller
         }
         $url = parse_url(\Yii::$app->request->hostInfo);
         if(!isset($url['host'])||empty($url['host'])) exit('访问出错啦');
-        $coopInfo=CoopDomain::find()
-            ->where(
-                'domain_name=:domain_name',
-                [':domain_name'=>$url['host']]
-            )
-            ->asArray()->one();
-        if(!$coopInfo) exit('访问出错啦');
-        $this->coopInfo=$coopInfo;
     }
     //此处为登录处理结束
 

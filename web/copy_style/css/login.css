@@ -1,0 +1,17 @@
+.loginBox{width: 913px;height: 748px;}
+.loginPic{width: 533px;height: 748px;background: url(../images/login.png) no-repeat 0 0; background-size: 100% 100%;}
+.loginPic h1{margin-top: 300px;}
+.loginPic h3{font-size: 26px;color: #fff;}
+.loginWarp{width: 380px;height: 748px;background: #fff}
+.loginMain,.registeMain,.resetMain{padding: 20px;}
+.registeMain ,.resetMain{display: none;}
+.loginWarp .loginTitle{color: #3a3a3a;font-size: 24px; margin-bottom: 35px; }
+.loginWarp form p{margin-bottom: 20px;}
+.loginWarp form p label{display: inline-block;height: 40px;line-height: 40px;width:90px;text-align: right;margin-right: 10px;}
+.loginWarp form p  .ipt{width: 200px;padding: 0 10px;height: 40px;line-height: 40px;border: 1px solid #ddd;border-radius: 5px;outline: none;}
+.loginWarp form p .btn{width: 116px;height: 40px;line-height: 40px;text-align: center;display: inline-block;background: #fade08;border-radius: 5px;
+border:none;outline: none;font-size: 16px;color: #333;cursor: pointer;}
+.loginWarp .jump a{color: 14px;color: #666}
+.loginWarp form p  .smipt{width: 80px;}
+.loginWarp form p .code{width: 100px;height: 40px;line-height: 40px;text-align: center;font-size: 14px;color: #666;border: 1px solid #ddd;
+cursor: pointer;display: inline-block;border-radius: 5px;}
